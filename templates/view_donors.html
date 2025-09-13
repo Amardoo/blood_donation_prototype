@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>View Donors</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+    	<h1 class="mt-5">Registered Donors</h1>
+    	<table class="table table-striped">
+        	<thead>
+            	<tr>
+                	<th>ID</th>
+                	<th>Name</th>
+                	<th>Donor ID</th>
+                	<th>Age</th>
+                	<th>Hemoglobin</th>
+                	<th>Blood Group</th>
+                	<th>Medical History</th>
+            	</tr>
+        	</thead>
+        	<tbody>
+            	{% for donor in donors %}
+            	<tr>
+                	<td>{{ donor[0] }}</td>
+                	<td>{{ donor[1] }}</td>
+                	<td>{{ donor[2] }}</td>
+                	<td>{{ donor[3] }}</td>
+                	<td>{{ donor[4] }}</td>
+                	<td>{{ donor[5] }}</td>
+                	<td>{{ donor[6] }}</td>
+            	</tr>
+            	{% endfor %}
+        	</tbody>
+    	</table>
+    	<a href="/" class="btn btn-secondary">Back</a>
+	</div>
+</body>
+</html>

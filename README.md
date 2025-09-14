@@ -30,6 +30,21 @@ Notes
 Security: This is a prototype, not production-ready. For a real system, add user authentication and input sanitization (e.g., to prevent SQL injection).
 Customization: To align further with the paper, add validation rules (e.g., reject donors with hemoglobin <13.0 g/dL for males) or alerts for RPN >60 (threshold from the paper).
 GitHub Alternative: If you prefer not to code, you can still use a GitHub repo like sumitkumar1503/bloodbankmanagement, but it’s more complex and requires Django setup. The provided code is simpler for thesis purposes.
+
+
+<img width="898" height="534" alt="1" src="https://github.com/user-attachments/assets/d954f254-9cca-42a5-bdf3-db8c9f572c95" />
+<img width="1434" height="686" alt="6" src="https://github.com/user-attachments/assets/7988d289-df9b-4746-851a-53de95cd91b6" />
+<img width="1458" height="622" alt="7" src="https://github.com/user-attachments/assets/2981aafb-1a4e-4905-ba26-afdc3ac0cc76" />
+<img width="1460" height="663" alt="8" src="https://github.com/user-attachments/assets/7fb2b0ff-5bb3-4bfe-84f5-e86c4eee8282" />
+<img width="1419" height="491" alt="9" src="https://github.com/user-attachments/assets/fe31042b-0230-4670-8459-07dd52435345" />
+
+
+
+
+
+
+
+
 Documentation: In your thesis, explain that this is a prototype to demonstrate a digital solution for managing donor data and risks, supporting the paper’s call for a Risk Management Information System (RMIS).
 If you need specific modifications (e.g., Arabic UI, additional FMEA fields, or a different stack like PHP), let me know, and I can adjust the code!
 
